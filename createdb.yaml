@@ -21,8 +21,8 @@
         name: dbsubnet
         description: My Fancy Ex Parrot Subnet Group
         subnets:
-          - subnet-c1bb03a6
-          - subnet-58951276
+          - subnet-0f8615bf68ac16436
+          - subnet-01bf5045bc251f451
       register: dbsubnet
     - debug:
         var: dbsubnet
